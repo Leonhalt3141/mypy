@@ -44,7 +44,7 @@ for point in points:
   out_csv = poipath + "poi%02d.csv" % (n)
   listData = []
   for i in images:
-    #画像名の拡張なしを取得
+    #画像名の拡張子なしを取得
     y = ".".join(os.path.split(i)[1].split(".")[1:3])
     #自作の画像ライブラリ
     #まず、インスタンスを作る
